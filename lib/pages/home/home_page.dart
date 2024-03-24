@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather/cubits/cubit_get_wheather.dart';
 import 'package:weather/cubits/weather_sate_cubite.dart';
-import 'package:weather/widgets/current_weather.dart';
-import 'package:weather/widgets/noWeather.dart';
+import 'package:weather/pages/home/current_weather.dart';
+import 'package:weather/pages/home/noWeather.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather/cubits/cubit_get_wheather.dart';
 import 'package:weather/cubits/weather_sate_cubite.dart';
 
-import 'package:weather/pages/home_page.dart';
+import 'package:weather/pages/home/home_page.dart';
 import 'package:weather/pages/search_page.dart';
 
 void main() {
@@ -34,7 +34,7 @@ The create parameter of BlocProvider is used to instantiate and provide the GetW
               initialRoute: '/',
               routes: {
                 '/': (context) => const HomePage(),
-                '/search': (context) => SearchPage(),
+                '/search': (context) => const SearchPage(),
               },
               title: 'Wheather',
               debugShowCheckedModeBanner: false,
